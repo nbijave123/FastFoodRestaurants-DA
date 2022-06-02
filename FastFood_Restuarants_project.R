@@ -103,7 +103,7 @@ Res_name<- replace_non_ascii2(Res_name)
 
 View(table(Res_name))
 # Now it is comparable after few corrections. But not very confindent as we can check
-# some KASA's Pizza beccome NASA's Pizza in new output column Res_name.
+# some KASA's Pizza become NASA's Pizza in new output column Res_name.
 # still, we can add column to out dataset.
 
 dataset$Res_name<- Res_name
